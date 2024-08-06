@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import {createStackNavigator} from '@react-navigation/stack';
 import {NavigationContainer} from '@react-navigation/native';
 import {createDrawerNavigator} from '@react-navigation/drawer';
@@ -14,6 +14,7 @@ import GetStarted from './screens/GetStarted';
 import SignIn from './screens/SignIn';
 import SignUp from './screens/SignUp';
 import TradingViewWidget from './screens/NewsScreen';
+import SplashScreen from 'react-native-splash-screen';
 
 const Stack = createStackNavigator();
 const Drawer = createDrawerNavigator();
@@ -39,7 +40,7 @@ function MyDrawer() {
           headerTintColor: 'white',
           headerTitle: '',
         }}
-        name="MainDrawer"
+        name="StockX"
         component={Main}
       />
       <Drawer.Screen
@@ -58,6 +59,10 @@ function MyDrawer() {
 }
 
 const App = () => {
+
+  useEffect(()=>{
+    SplashScreen.hide()
+  },[])
   return (
     <Provider store={appStore}>
       <NavigationContainer>

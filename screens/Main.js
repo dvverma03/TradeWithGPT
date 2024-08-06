@@ -22,7 +22,6 @@ export default function Main() {
       try {
         const value = await AsyncStorage.getItem('TradeWithGPT');
         if (!value) {
-          console.log('there are issue in async or async is empty');
         } else {
           navigation.navigate('MainLayout');
         }
@@ -46,7 +45,7 @@ export default function Main() {
               lineHeight: 60,
               color: '#e3e0e0',
             }}>
-            Quickly Grow Your Money with TradeWithGPT
+            Quickly Grow Your Money with StockX
           </Text>
           <Text
             style={{
@@ -56,7 +55,7 @@ export default function Main() {
               paddingTop: 20,
               lineHeight: 30,
             }}>
-            TradeWithGPT is the easiest place to buy and sell your assets. Buy
+            StockX is the easiest place to buy and sell your assets. Buy
             Bitcoin, Ethereum and other digital assets within minutes
           </Text>
         </View>
@@ -177,7 +176,7 @@ export default function Main() {
               marginTop: 10,
               lineHeight: 20,
             }}>
-            Each author receives dividends from TradeWithGPT and subscribers
+            Each author receives dividends from StockX and subscribers
           </Text>
         </View>
         <View>
@@ -190,7 +189,7 @@ export default function Main() {
               marginTop: 50,
               lineHeight: 45,
             }}>
-            Our authors use all the TradeWithGPT Tools for free
+            Our authors use all the StockX Tools for free
           </Text>
           <View style={{alignItems: 'center', marginTop: 10}}>
             <Image source={Illustration} />

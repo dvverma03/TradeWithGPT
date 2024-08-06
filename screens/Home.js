@@ -47,7 +47,6 @@ export default function Home() {
         try {
           const value = await AsyncStorage.getItem('TradeWithGPT');
           if (value !== null) {
-            console.log('stored value in home', value);
           }
         } catch (e) {
           console.log('error in async', e);

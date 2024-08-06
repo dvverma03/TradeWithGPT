@@ -31,7 +31,6 @@ export default function SignIn() {
       try {
         const value = await AsyncStorage.getItem('TradeWithGPT');
         if (!value) {
-          console.log('there are issue in async or async is empty');
         } else {
           navigation.navigate('MainLayout');
         }
@@ -102,11 +101,11 @@ export default function SignIn() {
                 borderColor: 'white',
                 borderWidth: 2,
                 fontSize: 25,
-                paddingHorizontal: 10,
+                paddingHorizontal: 50,
                 paddingVertical: 8,
                 borderRadius: 5,
               }}>
-              TradeWithGPT
+              StockX
             </Text>
           </View>
 

@@ -1,4 +1,4 @@
-# TradeWithGPT App
+# StockX App
 1. **Developed a comprehensive cryptocurrency knowledge app:** Designed and implemented an app that provides detailed information on cryptocurrency coins, including market data, portfolio tracking, and user profiles.
 
 2. **Integrated stock market news and updates:** Created a news section to deliver the latest stock market news, ensuring users stay informed with real-time updates.

@@ -91,11 +91,11 @@ export default function SignUp() {
                 borderColor: 'white',
                 borderWidth: 2,
                 fontSize: 25,
-                paddingHorizontal: 10,
+                paddingHorizontal: 50,
                 paddingVertical: 8,
                 borderRadius: 5,
               }}>
-              TradeWithGPT
+              StockX
             </Text>
           </View>
 

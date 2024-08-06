@@ -11,7 +11,6 @@ export default function GetStarted() {
         try {
           const value = await AsyncStorage.getItem('TradeWithGPT');
             if(!value){
-              console.log("there are issue in async or async is empty");
             }else{
 
               navigation.navigate("MainLayout")
